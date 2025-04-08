@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+header {
+    background: pink;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 2rem;
+}
+.navigation {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    background: rgb(179, 133, 141);
+    padding: 1rem 0;
+
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 3rem;
+    font-weight: bold;
+}
+nav a:hover {
+    color: rgb(239, 60, 90);
+    text-decoration: none;
+    font-size: 1rem;
+}
+.welcome-h1{
+    color: rgb(212, 149, 160);
+    padding-top: 8rem;
+    display: flex;
+    flex: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding-top: 5px ;
+
+    
+}
+.home {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.about {
+    margin-top: 2rem;
+    background-color: pink;
+    color: white;
+    border: 2px solid pink;
+    border-radius: 5px;
+    padding: 10px
+}
+.about-me {
+    margin-top: 7rem;
+    color: rgb(212, 149, 160);
+    display: flex;
+    flex: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+.projects, .skills {
+    margin-top: 2rem;
+}
+.project-h1{
+    margin-top: 7rem;
+    color: rgb(212, 149, 160);
+    display: flex;
+    flex: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+}
+.project {
+    color: rgb(146, 110, 116);
+    
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin: 10px;
+}
+.project-container{
+    margin: auto;
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* flex-wrap: wrap; */
+    margin-right: 1rem;
+    flex: inline;
+    justify-content: space-between;
+}
+.project-container :hover{
+    background-color: rgb(255, 181, 193);
+    color: white;
+}
+.h-skill{
+    margin-top: 7rem;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    color: rgb(212, 149, 160);
+}
+.skill-container{
+
+    display: flex;
+    margin-right: 1rem;
+    flex: inline;
+    justify-content: space-evenly;
+    /* background-color: rgb(255, 181, 193); */
+
+}
+.skill{
+    border: 10px solid rgb(255, 181, 193);
+    background-color: rgb(244, 214, 219);
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+}
+.contact-h1{
+    margin-top: 7rem;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    color: rgb(212, 149, 160);
+}
+.contact{
+    display: flex;
+    flex: inline-block;
+    justify-content: center;
+   color: rgb(255, 181, 193)
+}
+.box{
+    border: 1px solid white;
+    margin-right: 1rem;
+    border-radius: 10px;
+    background-color: rgb(244, 214, 219);
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(146, 110, 116)
+}
+
+.footer {
+    text-align: center;
+    background: rgb(146, 110, 116);
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 10px;
+}
